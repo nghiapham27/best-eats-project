@@ -1,6 +1,6 @@
 const HeadlineCards = () => {
   return (
-    <div className="max-w-[1640px] mx-auto px-4 py-8 grid md:grid-cols-3 gap-6">
+    <div className="max-w-[1640px] mx-auto px-4 py-8 grid md:grid-cols-3 gap-6 cursor-pointer">
       {/* Card 1 */}
       <div className="relative rounded-xl">
         {/* Overlay */}

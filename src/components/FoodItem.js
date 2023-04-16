@@ -1,7 +1,7 @@
 const FoodItem = ({ foodData }) => {
   const { name, image, price } = foodData;
   return (
-    <li className="relative max-h-[250px] shadow-xl rounded-xl overflow-hidden hover:scale-105 duration-300 ">
+    <li className="relative max-h-[250px] shadow-xl rounded-xl overflow-hidden hover:scale-105 duration-300 cursor-pointer">
       <img
         src={image}
         alt={name}
